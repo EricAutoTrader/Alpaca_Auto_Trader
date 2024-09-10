@@ -1,4 +1,4 @@
-# stratify_alpaca_buy_sell
+# Alpaca Auto Trading with Algo10.com
 
 ## Overview
 This is a basic auto trading program using Alpaca.  It uses buy signals from Algo10.com.  The intent is to use the signals to buy at the beginning of the day (ex. at or near the opening bell), sets stop losses, and sells at the market close. 
