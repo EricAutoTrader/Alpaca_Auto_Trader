@@ -67,7 +67,7 @@ account = api.get_account()
 
 #Get recommended buys.  This can come from any buy signal provider. Algo10.com has a good track record
 print("*********************  getting buy recommendations based on Technical Analysis ***********")
-url = "https://algo10.com/buys_json.html"
+url = "https://data.algo10.com/buys_json.html"
 response = requests.get(url)
 recommendation_list = json.loads(response.text)
 
