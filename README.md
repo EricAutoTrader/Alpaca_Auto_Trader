@@ -18,9 +18,9 @@ pip install alpaca-py
 Ensure environmental variables are setup on your local machine.  Alpaca provides good examples and how to info: https://github.com/alpacahq/alpaca-trade-api-python
 
 ## Set Schedules
-Update "run_aplaca.bat" and "run_aplaca_liquidate.bat" to include proper paths
+Update "run_alpaca.bat" and "run_alpaca_liquidate.bat" to include proper paths
 
-Schedule "run_aplaca.bat" and "run_aplaca_liquidate.bat" in your task scheduler (I use Windows Task Scheduler) which the user will have to setup manually.  
+Schedule "run_alpaca.bat" and "run_alpaca_liquidate.bat" in your task scheduler (I use Windows Task Scheduler) which the user will have to setup manually.  
 1. Create a daily M-F Windows Task to run "run_aplaca.bat" to buy the assets at the time of the opening bell or shortly after(ex. 8:30AM CT).  This batch file also sets stop losses.
 2. Create a daily M-F Windows Task to run "run_aplaca_liquidate.bat" to sell the assets just a few minutes prior to close (ex. 3PM CT).
 
